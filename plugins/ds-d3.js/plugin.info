@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/tiddlywiki/ds/d3.js",
+	"description": "D3.js for data visualisation",
+	"author": "dspinoz",
+	"version": "3.5.17",
+	"core-version": ">=5.0.0",
+	"plugin-type": "plugin",
+	"list": "readme"
+}

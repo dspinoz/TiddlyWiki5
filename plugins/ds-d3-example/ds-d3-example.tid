@@ -1,0 +1,5 @@
+title: ds-d3-example
+
+<$dsd3example grouped={{$:/grouped}} data="ds-d3-example-data"/>
+
+''[[code|$:/plugins/tiddlywiki/ds/ds-d3-example/widget.js]]'' //[[data|ds-d3-example-data]]//

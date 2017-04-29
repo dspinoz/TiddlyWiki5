@@ -1,0 +1,12 @@
+{
+	"tiddlers": [
+		{
+			"file": "d3.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/tiddlywiki/ds/d3.js/d3.js",
+				"module-type": "library"
+			}
+		}
+	]
+}

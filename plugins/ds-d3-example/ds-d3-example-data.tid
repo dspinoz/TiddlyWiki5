@@ -1,0 +1,8 @@
+title: ds-d3-example-data
+type: application/json
+
+[{"x":1,"y":7,"y0":0,"type":"a"},
+{"x":2,"y":8,"y0":0,"type":"b"},
+{"x":3,"y":9,"y0":0,"type":"a"}]
+
+
