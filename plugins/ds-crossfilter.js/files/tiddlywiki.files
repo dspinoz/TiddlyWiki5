@@ -1,0 +1,12 @@
+{
+	"tiddlers": [
+		{
+			"file": "crossfilter.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/tiddlywiki/ds/crossfilter.js/crossfilter.js",
+				"module-type": "library"
+			}
+		}
+	]
+}
