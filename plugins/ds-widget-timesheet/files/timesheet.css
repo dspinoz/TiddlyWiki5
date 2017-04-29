@@ -1,0 +1,37 @@
+td.heading {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+td.data {
+  width: 70px;
+  height: 70px;
+  border: 1px dashed #ccc;
+  vertical-align: top;
+}
+
+td.data.today {
+	background-color: yellow;
+	border: 1px solid black;
+}
+
+td.deselected  {
+	color:#ccc;
+	background-color: #eee;
+}
+
+td.deselected.today {
+    color: #aaa;
+    background-color: #ccc;
+}
+
+div.cell.date {
+	float:left;
+    height: 30px;
+}
+
+div.cell.hours {
+	float:right;
+	font-size: +3em;
+	font-weight: bold;
+}

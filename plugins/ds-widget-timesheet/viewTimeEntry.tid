@@ -1,0 +1,24 @@
+description: Displays fields of a time entry
+tags: $:/tags/ViewTemplate template
+title: viewTimeEntry
+
+\define remove_common_fields(fname)
+<$set name="v" value="""$fname$""">
+<$list filter="[<v>regexp[^((?!(created|creator|modified|modifier|tags|text|title|bag|revision)).)*$]]" variable="v">
+<tr>
+<th>
+<$text text="""$fname$""" />
+</th>
+<td>
+<$text text={{!!$fname$}} />
+</td>
+</tr>
+</$list>
+</$set>
+\end
+
+<table>
+<$list filter="[is[current]tag[time-entry]fields[]sort[]]" variable="fff">
+<$macrocall $name="remove_common_fields" fname=<<fff>> />
+</$list>
+</table>

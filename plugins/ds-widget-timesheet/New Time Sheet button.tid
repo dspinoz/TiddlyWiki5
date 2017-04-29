@@ -1,0 +1,9 @@
+tags: button
+title: New Time Sheet button
+
+\define timesheetButton()
+<$button tooltip="Record Time" aria-label="Record Time">New Time Entry
+<$action-sendmessage $message="tm-new-tiddler" title=<<now "Time Entry YYYY/0MM/0DD">> tags="time-entry"/>
+</$button>
+\end
+<<timesheetButton>>

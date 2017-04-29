@@ -1,0 +1,20 @@
+{
+	"tiddlers": [
+		{
+			"file": "timesheet.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/tiddlywiki/ds/ds-widget-timesheet/widget.js",
+				"module-type": "widget"
+			}
+		},
+		{
+			"file": "timesheet.css",
+			"fields": {
+				"type": "text/css",
+				"title": "$:/plugins/tiddlywiki/ds/ds-widget-timesheet/style.css",
+			    "tags": ["$:/tags/Stylesheet"]
+			}
+		}
+	]
+}
