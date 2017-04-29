@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/tiddlywiki/ds/ds-charts",
+	"description": "DS Charts - Library of charts",
+	"author": "dspinoz",
+	"version": "0.0.1",
+	"core-version": ">=5.0.0",
+	"plugin-type": "plugin",
+	"list": "readme"
+}

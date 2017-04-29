@@ -1,0 +1,13 @@
+title: $:/plugins/tiddlywiki/ds/ds-charts/readme
+
+Rendering of graphics and charts, using d3.js and dc.js libraries
+
+Currently supports:
+
+* ds.yearcalendar
+
+*> A calendar showing a full year, based on https://bl.ocks.org/mbostock/4063318
+
+* ds.calendar
+
+*> A calendar showing weeks in a larger view

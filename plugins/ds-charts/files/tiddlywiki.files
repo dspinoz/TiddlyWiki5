@@ -1,0 +1,12 @@
+{
+	"tiddlers": [
+		{
+			"file": "ds-dc.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/tiddlywiki/ds/ds-charts/ds.js",
+				"module-type": "library"
+			}
+		}
+	]
+}
