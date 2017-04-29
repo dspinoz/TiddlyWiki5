@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/tiddlywiki/ds/ds-dc-example",
+	"description": "A DS example DC plugin for demonstration purposes",
+	"author": "dspinoz",
+	"version": "0.0.1",
+	"core-version": ">=5.0.0",
+	"plugin-type": "plugin",
+	"list": "readme"
+}

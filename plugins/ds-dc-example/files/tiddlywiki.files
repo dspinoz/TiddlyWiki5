@@ -1,0 +1,12 @@
+{
+	"tiddlers": [
+		{
+			"file": "dc-example-widget.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/tiddlywiki/ds/ds-dc-example/widget.js",
+				"module-type": "widget"
+			}
+		}
+	]
+}

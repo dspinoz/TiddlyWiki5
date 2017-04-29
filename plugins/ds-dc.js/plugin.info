@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/tiddlywiki/ds/dc.js",
+	"description": "dc.js for data visualisation",
+	"author": "dspinoz",
+	"version": "2.1.4",
+	"core-version": ">=5.0.0",
+	"plugin-type": "plugin",
+	"list": "readme"
+}

@@ -1,0 +1,21 @@
+{
+	"tiddlers": [
+		{
+			"file": "dc.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/tiddlywiki/ds/dc.js/dc.js",
+				"module-type": "library"
+			}
+		},
+		{
+			"file": "dc.css",
+			"fields": {
+				"type": "text/css",
+				"title": "$:/plugins/tiddlywiki/ds/dc.js/dc.css",
+				"module-type": "library",
+			    "tags": ["$:/tags/Stylesheet"]
+			}
+		}
+	]
+}
