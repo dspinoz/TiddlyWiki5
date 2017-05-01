@@ -51,6 +51,7 @@ BarWidget.prototype.render = function(parent,nextSibling) {
 			f.remove('modifier');
 			f.remove('bag');
 			f.remove('revision');
+			f.remove('type');
 
 			entries.set(t, f);
 

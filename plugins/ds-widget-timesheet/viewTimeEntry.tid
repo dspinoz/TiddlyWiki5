@@ -4,7 +4,7 @@ title: viewTimeEntry
 
 \define remove_common_fields(fname)
 <$set name="v" value="""$fname$""">
-<$list filter="[<v>regexp[^((?!(created|creator|modified|modifier|tags|text|title|bag|revision)).)*$]]" variable="v">
+<$list filter="[<v>regexp[^((?!(created|creator|modified|modifier|tags|text|title|bag|revision|type)).)*$]]" variable="v">
 <tr>
 <th>
 <$text text="""$fname$""" />
