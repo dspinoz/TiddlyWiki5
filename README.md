@@ -1,6 +1,13 @@
 # TiddlyWiki5
 Plugins for TiddlyWiki5
 
+## Getting Started
+
+```
+npm install tiddlywiki
+node_modules/.bin/tiddlywiki . --verbose --server
+```
+
 ## Third Party Libraries
 * **ds-d3.js** https://d3js.org/ 
 * **ds-crossfilter.js**	http://square.github.io/crossfilter/
