@@ -1,0 +1,20 @@
+{
+	"tiddlers": [
+		{
+			"file": "treechart-widget.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/tiddlywiki/ds/ds-dc-treechart/widget.js",
+				"module-type": "widget"
+			}
+		},
+		{
+			"file": "treechart.css",
+			"fields": {
+				"type": "text/css",
+				"title": "$:/plugins/tiddlywiki/ds/ds-dc-treechart/style.css",
+			    "tags": ["$:/tags/Stylesheet"]
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"title": "$:/plugins/tiddlywiki/ds/ds-dc-treechart",
+	"description": "A D3/DC plugin for drawing trees",
+	"author": "dspinoz",
+	"version": "0.0.1",
+	"core-version": ">=5.0.0",
+	"plugin-type": "plugin",
+	"list": "readme"
+}

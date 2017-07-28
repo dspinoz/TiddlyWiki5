@@ -1,0 +1,14 @@
+path.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 0.5px;
+}
+
+g.node {
+  cursor: pointer;
+}
+
+g.node circle {
+  stroke-width: 1px;
+  fill-opacity: 0.2;
+}

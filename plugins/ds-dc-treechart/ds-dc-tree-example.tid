@@ -1,0 +1,5 @@
+title: ds-dc-tree-example
+
+<$dstreechart data="ds-dc-tree-example-data"/>
+
+''[[code|$:/plugins/tiddlywiki/ds/ds-dc-treechart/widget.js]]'' //[[data|ds-dc-tree-example-data]]//
