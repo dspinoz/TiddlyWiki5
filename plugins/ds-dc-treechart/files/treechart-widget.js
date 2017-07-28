@@ -73,12 +73,12 @@ tree
     return tot; 
   })
   //.scale(d3.scale.linear().range([5,50]).domain([1,300]))
-  .renderNode(function(sel) {
+  /*.renderNode(function(sel) {
     var c = sel.selectAll('circle').data(function(d) { return [d]; });
     c.exit().remove();
     c.enter().append('circle');
     c.attr('r', 5);
-  })
+  })*/
   .dimension(facts.dimension(function(d) { return d.category; }))
   .filterFunc(function(d) {
     if (d.depth <= 1)
