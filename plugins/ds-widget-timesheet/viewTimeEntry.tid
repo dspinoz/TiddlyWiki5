@@ -17,7 +17,7 @@ title: viewTimeEntry
 </$set>
 \end
 
-<table>
+<table class='time-entry-table'>
 <$list filter="[is[current]tag[time-entry]fields[]sort[]]" variable="fff">
 <$macrocall $name="remove_common_fields" fname=<<fff>> />
 </$list>

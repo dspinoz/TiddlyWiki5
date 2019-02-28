@@ -73,23 +73,27 @@ tree
     return tot; 
   })
   //.scale(d3.scale.linear().range([5,50]).domain([1,300]))
-  /*.renderNode(function(sel) {
+  .renderNode(function(sel) {
+	  
+    var t = sel.selectAll('text').data(function(d) { return [d]; });
+    t.exit().remove();
+    t.enter().append('text')
+		.attr("text-anchor", "middle")
+		.attr('dy', '.35em')
+		.attr('dx', '0');
+	t.text(function(d) { return d.key; });
+	  
     var c = sel.selectAll('circle').data(function(d) { return [d]; });
     c.exit().remove();
     c.enter().append('circle');
-    c.attr('r', 5);
-  })*/
-  .dimension(facts.dimension(function(d) { return d.category; }))
-  .filterFunc(function(d) {
-    if (d.depth <= 1)
-      return d.key;
-      
-    subcatPie.filter(d.key);
-    return d.parent.key;
-  });
+    c.attr('r', 10);
+  })
+  .dimension(facts.dimension(function(d) { return d.category; }));
   
 tree.nest()
   .key(function(d) { return d.type; })
+  .key(function(d) { return d.x; })
+  .key(function(d) { return d.y; })
   .rollup(function(values) { 
     var tot = 0;
     values.forEach(function(d) {
